@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.OnloadingActivity">
+    tools:context=".Activity.OnboardingActivity">
 
     <!-- Background Image -->
     <ImageView
@@ -36,11 +36,8 @@
         tools:ignore="ContentDescription" />
 
     <!-- Welcome Text -->
-
-    <!-- Description -->
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_welcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="640dp"
@@ -56,6 +53,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
+    <!-- Description -->
     <TextView
         android:id="@+id/text_description"
         android:layout_width="0dp"
@@ -68,12 +66,12 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/text_welcome"
         tools:ignore="HardcodedText" />
 
     <!-- SignUp Button -->
     <Button
-        android:id="@+id/text_signup"
+        android:id="@+id/btn_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -89,7 +87,7 @@
 
     <!-- LogIn Button -->
     <Button
-        android:id="@+id/text_login"
+        android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
