@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "833933655606",
+    "project_id": "ktop-app-database",
+    "storage_bucket": "ktop-app-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833933655606:android:65df85bd8f4811d4bfa297",
+        "android_client_info": {
+          "package_name": "com.example.ktop_food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAowatF0HlLmWedsKDh-ShHr2lK5GtNr7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
